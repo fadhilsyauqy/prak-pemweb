@@ -1,0 +1,288 @@
+/*
+Rahmat Fadhil Syauqy.A
+121140109
+RC 
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #000000;
+    padding: 5px;
+}
+
+.atas {
+    display: flex;
+    justify-content:start;
+    background-color:#03353A;
+    padding: 10px;
+    border: #0a98a5 solid 8px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.img{
+    width: 200px;
+    height: 225px;
+    border-radius: 60%;
+    border: #0a98a5 solid 5px;
+    margin: 10px 10px 10px 50px;
+}
+
+.judul{
+    color: #9DCBCF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 0 0 40px;
+}
+
+.judul h3{
+    margin-top: -20px;
+    border-top: #0a98a5 solid 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #0a98a5;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 2;
+    font-size: 12px;
+    box-shadow: 0 15px 15px 0  #000000cc ;
+}
+
+nav ul {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px 15px;
+    color: #000000;
+    background-color:#9DCBCF ;
+    text-decoration: none;
+    font-size:12px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+nav li  {
+    list-style : none;
+    display: inline;
+    margin: 3px 5px 3px 3px;
+}
+
+nav a:hover{
+    background-color: #03353A;
+    color: #0a98a5;
+    transition:  0.3s ease-in-out;
+}
+
+.tentang{
+    margin: 10px 0 5px 0;
+    padding:  20px 40px 20px 40px;
+    background-color: #C2D4D6;
+    border-radius: 15px;
+    font-size: 16px;
+    border: #0a98a5 solid 5px;
+}
+
+.tentang h3{
+    font-size: 32px;
+    text-align: center;
+    border-bottom: #0a98a5 solid 1px;
+}
+
+.videoku{
+    padding: 25px 40px 25px 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #C2D4D6;
+    border-radius: 15px;
+    border: #0a98a5 solid 5px;
+    z-index: 1;
+    width: 60%;
+    height: 280px;
+    margin-right: 5px;
+}
+
+.videoku video{
+    border-radius: 15px;
+    max-width: 100%;
+    }
+
+
+.videoku h2{
+    font-size: 26px;
+    margin-top: 3px;
+    border-bottom: #0a98a5 solid 1px;
+}
+
+.videoku  p{
+    margin-top: 15px;
+    font-size: 16px;
+    margin-bottom: -6px;
+}
+
+.audioku{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2D4D6;
+    border-radius: 15px;
+    border: #0a98a5 solid 5px;
+    z-index: 1;
+    width: 40%;
+    height: 280px;
+    padding: 25px;
+
+}
+
+.audioku audio{
+    max-width: 100%;
+}
+
+.audioku audio::-webkit-media-controls-panel{
+    background-color: #0a98a5;
+}
+
+.audioku h2{
+    margin: 5px 0 65px 0;
+    text-align: center;
+    border-bottom: #0a98a5 solid 1px;
+}
+
+.audioku h3{
+    margin: 40px 0 -5px 0;
+    text-align: center;
+}
+
+.audioku p{
+    display:flex;
+    justify-content: center;
+}
+
+.pengalaman{
+    padding:  0px 40px 40px 40px;
+    background-color:#0a98a5; 
+    border-radius: 15px;
+    border: #C2D4D6 solid 5px;
+    margin: 10px 0 10px 0;
+}
+
+.pengalaman h2{
+    text-align: center;
+    border-bottom: #C2D4D6 solid 1px;
+}
+
+.tabel{
+    display: flex;
+    justify-content: center;
+}
+
+.tabel table{
+    width: 100%;
+    border: 0;
+}
+
+.tabel table tr{
+    background-color: #C2D4D6;
+}
+
+.tabel table th{
+    background-color: #000000;
+    color: #0a98a5;
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: #C2D4D6 solid 1px;
+}
+
+.tabel table td{
+    border-radius: 5px;
+    padding:  6px 12px;
+    text-align: center;
+    font-size: 20px;
+    border: #000000 solid 2px;
+}
+
+.kontak{
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    background-color: #0a98a5;
+    border-radius: 15px;
+    border: #C2D4D6 solid 5px;
+    list-style: none;
+}
+
+.kontak a{
+    text-decoration: none;
+}
+
+.gambar1{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 52px;
+    height: 54px;
+}
+
+.gambar2{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 52px;
+    height: 54px;
+    margin-left: 10px;
+}
+
+.kontak p{
+    display: flex;
+}
+
+.kontak h2{
+    font-size: 30px;
+    margin: 0 0 30px 5px;
+    border-bottom: #C2D4D6 solid 1px;
+}
+
+.kontak button{
+    background-color: #000000;
+    color: #0a98a5;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.kontak label{
+    font-size: 146x;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+footer{
+    background-color: #C2D4D6;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border: #0a98a5 solid 5px;
+    margin: 10px 0 5px 0;
+}
+
+footer big{
+    font-style: bold;
+    font-size: 18px;
+    font-weight: 700;
+}

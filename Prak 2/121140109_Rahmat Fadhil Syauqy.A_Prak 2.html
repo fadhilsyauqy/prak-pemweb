@@ -1,0 +1,153 @@
+<!-- 
+Rahmat Fadhil Syauqy.A
+121140109
+RC 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 Prak Pemweb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="atas">
+            <img class="img" src="Assets/saya.png" alt="gambar saya eror" width="150" >
+            <div class="judul">
+                <h1>Fadhil Syauqy</h1>
+                <h3>Mahasiswa Teknik Informatika</h3>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#pengalamansaya">Pengalaman Saya</a></li>
+                <li ><a href="http://if.itera.ac.id/" target="_blank">Prodi Saya</a></li>
+                <li ><a href="https://en.wikipedia.org/wiki/Sumatra_Institute_of_Technology" target="_blank">Kampus Saya</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        
+        <div class="tentang" id="about">
+            <h3>Tentang Saya</h3> 
+            <b>Biodata :</b>
+            <ul style="list-style-type: none;">
+                <li>Nama  : Rahmat Fadhil Syauqy.A</li>
+                <li>NIM : 121140109</li>
+                <li>Program Studi: Teknik Informatika</li>
+                <li>Usia : 20 tahun</li>
+                <li >Jenis Kelamin  : Laki- Laki</li>
+            </ul>
+            <p>
+                Saya merupakan individu yang gemar berolahraga, saya sela
+                lu menemukan kesenangan dalam aktivitas fisik. Selain itu, saya juga 
+                menikmati berpetualang dengan pergi jalan-jalan untuk mengeksplorasi 
+                tempat-tempat baru.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ut id placeat quas quidem 
+                exercitationem perferendis magnam inventore. Excepturi veritatis recusandae dicta hic eligendi atque sit, 
+                temporibus at asperiores laborum adipisci vel velit culpa soluta nam tempora ut odit quae earum in aspernatur? 
+                Voluptatibus, inventore? Eius laudantium porro corrupti nostrum, voluptates suscipit, pariatur omnis facere debitis nesciunt 
+                amet sed quia. Eius maxime laborum mollitia itaque temporibus fugiat ducimus ipsa, tenetur ipsum laboriosam 
+                quibusdam rerum, sapiente corporis? Aut libero iusto esse explicabo voluptatibus ullam dolorum numquam autem magnam sint qui, error sit 
+                nemo excepturi veritatis doloremque accusantium reprehenderit quasi ipsam provident?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ut id placeat quas quidem 
+                exercitationem perferendis magnam inventore. Excepturi veritatis recusandae dicta hic eligendi atque sit, 
+                temporibus at asperiores laborum adipisci vel velit culpa soluta nam tempora ut odit quae earum in aspernatur? 
+                Voluptatibus, inventore? Eius laudantium porro corrupti nostrum, voluptates suscipit, pariatur omnis facere debitis nesciunt 
+                amet sed quia. Eius maxime laborum mollitia itaque temporibus fugiat ducimus ipsa, tenetur ipsum laboriosam 
+                quibusdam rerum, sapiente corporis? Aut libero iusto esse explicabo voluptatibus ullam dolorum numquam autem magnam sint qui, error sit 
+                nemo excepturi veritatis doloremque accusantium reprehenderit quasi ipsam provident?
+            </p>
+        </div>
+        
+        <section class="pengalaman" id="pengalamansaya">
+            <h2>Pengalaman Organisasi</h2>
+            <div class="tabel">
+                <table border="1">
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th rowspan="2">Organisasi</th>
+                        <th colspan="2">Tahun</th>
+                        <tr>
+                            <th>Masuk</th>
+                            <th>Keluar</th>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Makers</td>
+                        <td>2018</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pramuka</td>
+                        <td>2016</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Marching Band</td>
+                        <td>2014</td>
+                        <td>2016</td>
+                    </tr>
+                </table>
+            </div><P></P>
+        </section>
+        
+        <section style="display: flex;">
+            <div class="videoku">
+                <form action="database.html" method="POST">
+                <h2>Video Wawasan</h2>
+                <video src="Assets/video.mp4" controls width="360"></video><br>
+                <p>
+                    <label for="pilihan">Apakah Menurut Anda Vidieo Ini Bermanfaat?</label>
+                    <select>
+                        <option value="ya">ㅤ</option>
+                        <option value="ya">Ya</option>
+                        <option value="tidak">Tidak</option>
+                    </select>
+                </p>
+            </div>
+    
+            <div class="audioku">
+                <h2>Penyejuk Hati</h2>
+                <audio src="Assets/audio.mp3"controls ></audio>
+                <form >
+                    <h3> Apakah Audio Ini Bermanfaat?</h3>
+                    <p>
+                        <input type="radio" name="soal2" value="1"> Iya
+                        <input type="radio" name="soal2" value="2"> Tidak
+                    </p>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="kontak" id="contact">
+            <h2>Kontak </h2>
+            <form action="database.html" method="POST">
+                <p>
+                    <label for=""> email : </label>
+                    <input type="text" placeholder="rahmatfadhilsauqy08@gmail,com" id="email" name="soal1">
+                    <button type="submit"> simpan</button>
+                </p>
+                <a href="https://instagram.com/fadhilsyauqy08?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <img class="gambar1" src="Assets/ig.png" alt="ig error">
+                </a>
+                <a href="https://github.com/fadhilsyauqy" target="_blank ">
+                    <img class="gambar2" src="Assets/github.png" alt="github error">
+                </a>
+            </form>
+        </section>
+
+        <footer class="bawah">
+            <big>🖤SEMOGA BERMANFAAT🖤</big>
+        </footer>
+    </div>
+</body>
+</html>
