@@ -1,3 +1,9 @@
+/*
+Rahmat Fadhil Syauyqy.A
+121140109
+RC
+*/
+
 function ganjil(a){
     let jumlah_ganjil= 0;
     for ( let i =1; i <= a ; i++){
