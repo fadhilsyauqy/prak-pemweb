@@ -47,4 +47,3 @@ while (pilihan = true){
     }
 }
 
-59
